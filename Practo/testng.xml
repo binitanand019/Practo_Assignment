@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+    <test name="All">
+        <parameter name="browsers" value="firefox"></parameter>
+        <classes>
+            <class name="com.practo.scripts.BrokenLinkValidation"/>
+            <class name="com.practo.scripts.FBBlogCommentLike"/>
+        </classes>
+    </test>
+</suite>
